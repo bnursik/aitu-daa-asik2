@@ -37,6 +37,15 @@
           <useModulePath>false</useModulePath>
         </configuration>
       </plugin>
+      <plugin>
+  <groupId>org.codehaus.mojo</groupId>
+  <artifactId>exec-maven-plugin</artifactId>
+  <version>3.3.0</version>
+  <configuration>
+    <mainClass>cli.BenchmarkRunner</mainClass>
+  </configuration>
+</plugin>
+
     </plugins>
   </build>
 </project>
